@@ -1,0 +1,86 @@
+.notification{
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    
+    
+}
+
+.button{
+    
+    float: left;
+    margin-left: 50px;
+    color: white;
+    background-color: darkblue;
+    
+}
+
+table#t1 tr{
+    border: 1px solid black;
+border-collapse: separate;
+
+    border-spacing: 0 15px;
+
+    padding: 15px;
+    
+    background-color: #f4f2f2;
+    
+}
+table#t1 td{
+    border: 1px solid black;
+border-collapse: separate;
+    border-spacing: 0 15px;
+    
+    padding: 15px;
+    background-color: #f4f2f2;
+
+}
+
+
+table#t1 th{
+    border: 1px solid black;
+border-collapse: separate;
+    border-spacing: 0 15px;
+    
+    padding: 15px;
+    background-color: #666784;
+color: white;
+
+}
+
+
+.frame{    
+    
+}
+
+
+.tabl{
+    
+margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 70px;
+height: auto;
+    width: 700px;
+
+}
+
+.notification:hover {
+    
+    background: red;
+    
+}
+
+.notification .badge{
+    position: absolute;
+    top: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    
+    
+}
